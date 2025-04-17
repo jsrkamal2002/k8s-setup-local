@@ -163,6 +163,7 @@ create_vm "master" 2 4 8192 "192.168.1.64"
 create_vm "worker" 1 2 4096 "192.168.1.61"
 create_vm "worker" 2 2 4096 "192.168.1.62"
 create_vm "worker" 3 2 4096 "192.168.1.63"
+create_vm "nginx" 0 2 2048 "192.168.1.70"
 
 print_color "1;32" "\nAll VMs created successfully."
 print_color "1;33" "Please note the IP addresses and update your DNS or /etc/hosts file accordingly."

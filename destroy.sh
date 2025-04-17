@@ -19,7 +19,7 @@ print_color "1;34" "
 "
 
 # List of VMs to process
-VMS=("master-1" "master-2" "master-3" "worker-1" "worker-2" "worker-3")
+VMS=("master-1" "master-2" "master-3" "worker-1" "worker-2" "worker-3" "nginx-0")
 
 print_color "1;36" "VMs to be processed:"
 for vm in "${VMS[@]}"; do
